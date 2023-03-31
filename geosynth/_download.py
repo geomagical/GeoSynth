@@ -1,7 +1,6 @@
 import zipfile
-from collections.abc import Iterable
 from pathlib import Path
-from typing import Optional
+from typing import Iterable, Optional
 from urllib.error import HTTPError
 
 from rich import print
