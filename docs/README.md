@@ -1,4 +1,4 @@
-Documentation is available online here (TODO).
+Documentation is available online [here](https://geosynth.readthedocs.io/en/latest/).
 
 # Building Documentation
 To locally build the documentation, run the following command in this directory (`docs/`):

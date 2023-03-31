@@ -6,7 +6,8 @@
 
 [![pypi](https://img.shields.io/pypi/v/geosynth.svg)](https://pypi.python.org/pypi/geosynth)
 [![paper](https://img.shields.io/badge/ieee%20vr-paper-green)](https://ieeexplore.ieee.org/document/10050341)
-[![docs](https://img.shields.io/badge/docs-TODO-blue)](https://www.geomagical.com)
+[![Documentation Status](https://readthedocs.org/projects/geosynth/badge/?version=latest)](https://geosynth.readthedocs.io/en/latest/?badge=latest)
+
 
 Deep learning has revolutionized many scene perception tasks
 over the past decade. Some of these improvements can be attributed
