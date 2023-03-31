@@ -21,6 +21,8 @@ more. We demonstrate that supplementing real training data with
 GeoSynth can significantly improve network performance on
 perception tasks, like semantic segmentation.
 
+Watch our [presentation from IEEE VR 2023](https://www.youtube.com/watch?v=_M1WL3oP8mQ).
+
 GeoSynth is used internally at [Geomagical Labs](https://www.geomagical.com) to help power the [IKEA Kreativ](https://www.ikea.com/us/en/home-design/) home design experience.
 
 
