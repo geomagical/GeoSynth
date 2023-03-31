@@ -150,4 +150,4 @@ for scene in dataset:
 # License
 The GeoSynth **code** is released under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0.html).
 
-The GeoSynth **data** provided at https://storage.googleapis.com/geomagical-geosynth-public is available under the [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The GeoSynth **data** provided at `storage.googleapis.com/geomagical-geosynth-public` is available under the [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
