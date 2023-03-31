@@ -208,7 +208,7 @@ class NpzMixin:
     ext = ".npz"
 
     @classmethod
-    def read_file(cls, fn: Path) -> Union[dict[str, np.ndarray], np.ndarray]:
+    def read_file(cls, fn: Path) -> Union[Dict[str, np.ndarray], np.ndarray]:
         with np.load(fn) as data:
             data: Dict[str, np.ndarray] = dict(data)
             if len(data) == 1:
@@ -238,7 +238,7 @@ class NpzFloat16Mixin(NpzMixin):
     """Converts stored float16 -> float32 for easier standard processing."""
 
     @classmethod
-    def read_file(cls, fn: Path) -> Union[dict[str, np.ndarray], np.ndarray]:
+    def read_file(cls, fn: Path) -> Union[Dict[str, np.ndarray], np.ndarray]:
         out = super().read_file(fn)
         if isinstance(out, np.ndarray):
             out = out.astype(np.float32)
@@ -275,7 +275,7 @@ class JsonMixin:
     ext = ".json"
 
     @classmethod
-    def read_file(cls, fn: Path) -> dict:
+    def read_file(cls, fn: Path) -> Dict:
         with fn.open("r") as f:
             return json.load(f)
 
